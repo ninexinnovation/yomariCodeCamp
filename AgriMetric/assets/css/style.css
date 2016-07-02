@@ -1,0 +1,51 @@
+body{
+	background: #eee;
+}
+.container-fluid{
+	margin-top: 10px;
+}
+.forum-section{
+	background: #fff;
+	margin: 10px 0;
+	padding:10px 20px;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 3px;
+	box-shadow: 1px 1px 7px 1px rgba(0,0,0,.1);
+}
+.forum-section:active[data-id]{
+	background: #ccc;
+}
+.forum-head{
+	font-size: 20px;
+	font-weight: bold;
+	color:#27ae61;
+}
+.forum-details{
+	color:#3598db;
+}
+.forum-section i{
+	font-size: 13px;;
+}
+.forum-comments{
+	/*background: #efefef;*/
+	margin-top: 20px;
+}
+.comment{
+	border: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 5px;
+}
+.comment-username{
+	font-size: 18px;
+	color:#2ecd71;
+}
+.comment-text{
+	padding-left: 25px;
+}
+.comment-date{
+	font-size: 12px;
+	font-style: italic;
+	color:#3598db;
+}

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AgriMetric</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="regulate">Regulate</string>
+
+    <string-array name="menu_items">
+        <item>Regulate</item>
+        <item>Field Advisory</item>
+        <item>Crop Diseases</item>
+    </string-array>
+
+    <string name="moisture">Moisture</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="motor">Motor Status</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_change_language">Change Language</string>
+    <string-array name="pref_language_list_titles">
+        <item>Default</item>
+        <item>English</item>
+        <item>नेपाली</item>
+    </string-array>
+    <string-array name="pref_language_list_values">
+        <item>-1</item>
+        <item>en</item>
+        <item>np</item>
+    </string-array>
+    <string name="title_activity_crop_diseases_forum">Crop Diseases Forum</string>
+
+</resources>
